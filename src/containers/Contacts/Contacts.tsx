@@ -41,7 +41,7 @@ const Contacts = () => {
                 />
                 <textarea
                     className="w-64 py-2 px-4 mb-4 rounded-md placeholder-gray-500 bg-[#98ec65] bg-opacity-70 focus:outline-none"
-                    rows="4"
+                    rows={4}
                     name={"message"}
                     placeholder="Ваше сообщение"
                     value={formInputs.message}
