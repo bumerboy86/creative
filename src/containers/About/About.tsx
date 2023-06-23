@@ -1,7 +1,7 @@
 const About = () =>  {
     return (
-        <div className="flex flex-col justify-center box-border">
-            <div className="bg-gray-500 bg-opacity-50 flex flex-col text-justify mt-[4rem] p-4 rounded-lg box-border mx-auto max-w-sm overflow-hidden" >
+        <div className="flex flex-col justify-center box-border pt-[5rem]">
+            <div className="bg-gray-500 bg-opacity-50 flex flex-col p-[1rem] rounded-lg box-border mx-auto max-w-full mr-[2rem] ml-[2rem]" >
                 <h2 className="text-center text-white mb-10">Добро пожаловать на страницу "О нас"</h2>
                 <p className="break-words text-[#98ec65] p-0 m-0">
                     Мы являемся творческой командой профессиональных дизайнеров, стремящихся создать уникальные и впечатляющие визуальные решения для вашего бренда или проекта. Нашей целью является предоставление высококачественных дизайнерских услуг, которые будут отражать вашу уникальность и подчеркивать ваше сообщение.

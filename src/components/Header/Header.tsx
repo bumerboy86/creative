@@ -6,13 +6,13 @@ const Header = ()  =>{
             <nav className="flex items-center justify-center space-x-10 w-full px-6">
                 <NavLink
                     className="text-[#98ec65] font-bold text-[1.1rem] cursor-pointer hover:animate-pulse"
-                    to={"/"}>Home</NavLink>
+                    to={"/creative"}>Home</NavLink>
                 <NavLink
                     className="text-[#98ec65] font-bold text-[1.1rem] cursor-pointer hover:animate-pulse"
-                    to={"/about"}>About</NavLink>
+                    to={"/creative/about"}>About</NavLink>
                 <NavLink
                     className="text-[#98ec65] font-bold text-[1.1rem] cursor-pointer hover:animate-pulse"
-                    to={"/contact"}>Contact Us</NavLink>
+                    to={"/creative/contact"}>Contact Us</NavLink>
             </nav>
         </header>
     )

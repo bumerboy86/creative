@@ -8,10 +8,10 @@ function App() {
     <>
         <BrowserRouter>
             <Routes>
-                <Route element={<Layout />}>
+                <Route path={"/creative"} element={<Layout />}>
                     <Route index element={<Home />}/>
-                    <Route path={"/about"} element={<About />}/>
-                    <Route path={"/contact"} element={<div className="bg-white">Contacts</div>}/>
+                    <Route path={"/creative/about"} element={<About />}/>
+                    <Route path={"/creative/contact"} element={<div className="bg-white">Contacts</div>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

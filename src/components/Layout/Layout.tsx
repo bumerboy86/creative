@@ -11,7 +11,7 @@ const Layout = () => {
         backgroundPosition: "center",
     }
     return (
-        <main className="h-screen w-screen" style={style}>
+        <main className="min-h-screen min-w-screen" style={style}>
             <Header />
             <Outlet />
         </main>

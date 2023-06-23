@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className="w-full h-full flex flex-col justify-center px-[4rem]">
+        <div className="w-full h-full flex flex-col justify-center p-[4rem]">
             <h1 className="text-[#98ec65] font-bold text-[5rem]">
                 Creative
             </h1>
