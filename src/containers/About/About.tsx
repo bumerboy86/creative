@@ -1,6 +1,6 @@
 const About = () =>  {
     return (
-        <div className="flex flex-col justify-center box-border pt-[5rem]">
+        <div className="flex flex-col justify-center box-border pt-[5rem] pb-[6rem]">
             <div className="bg-gray-500 bg-opacity-50 flex flex-col p-[1rem] rounded-lg box-border mx-auto max-w-full mr-[2rem] ml-[2rem]" >
                 <p className="text-center text-white mb-10 text-[1.5rem] sm:text-[2rem]">Добро пожаловать на страницу "О нас"</p>
                 <p className="break-words text-[#98ec65] p-0 m-0">

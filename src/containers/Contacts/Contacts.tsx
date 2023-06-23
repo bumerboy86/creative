@@ -20,7 +20,7 @@ const Contacts = () => {
     }
 
     return (
-        <div className="flex flex-col justify-center items-center box-border pt-20">
+        <div className="flex flex-col justify-center items-center box-border pt-20 pb-[6rem]">
             <h1 className="text-white text-2xl mb-4">Форма обратной связи:</h1>
             <form onSubmit={submitHandler} className="flex flex-col items-center">
                 <input
