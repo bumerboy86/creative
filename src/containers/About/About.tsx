@@ -1,3 +1,8 @@
+import tailwindIco from "../../assets/tailwind_icon.png";
+import viteIcon from "../../assets/vite_icon.svg";
+import gitIco from "../../assets/git_icon.svg";
+import typescriptIco from "../../assets/typescript_icon.svg";
+
 const About = () =>  {
     return (
         <div className="flex flex-col justify-center box-border pt-[5rem] pb-[6rem]">
@@ -10,6 +15,12 @@ const About = () =>  {
                     Мы стремимся к совершенству в каждом проекте, независимо от его масштаба. Будь то создание брендинга для стартапа или разработка сложного пользовательского интерфейса, мы вкладываем свою энергию и талант в каждую деталь. Наша цель - не просто удовлетворить ваши ожидания, а превзойти их.
                     Если вы ищете надежного партнера для своих дизайнерских потребностей, Creative Design Studio готов принять вызов. Свяжитесь с нами сегодня, и давайте начнем создавать вместе!
                 </p>
+                <div className="flex flex-wrap justify-center gap-[2.25rem] pt-[2rem]">
+                    <img className="w-[50px] sm-w-[100px]" src={tailwindIco} alt={"tailwind"}/>
+                    <img className="w-[50px] sm-w-[100px]" src={viteIcon} alt={"vite"}/>
+                    <img className="w-[50px] sm-w-[100px]" src={gitIco} alt={"git"}/>
+                    <img className="w-[50px] sm-w-[100px]" src={typescriptIco} alt={"typescript"}/>
+                </div>
             </div>
         </div>
     )
